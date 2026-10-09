@@ -2,6 +2,6 @@
 #define NETWORK_H
 
 void network_init();
-bool sendTemperature(float temperature);
+bool sendMeasurements(float ec, float ph, float temperature, float humidity);
 
 #endif
